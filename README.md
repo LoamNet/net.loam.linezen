@@ -1,2 +1,2 @@
-# net.loam.linezen
-Line Zen
+# net.loam.line-zen
+Line Zen game website
