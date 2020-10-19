@@ -37,20 +37,20 @@
       </div>
       <div id="unity-footer">
         <div id="unity-fullscreen-button"></div>
-        <div style="float: left; font-family: 'Open Sans', sans-serif; opacity: 0.5; font-size: 1.5em;" id="unity-build-title">Line Zen <span style="font-size: 11px;"> v0.3.0 (beta)&emsp;|&emsp;<a href="https://loam.net/">loam.net</a></span></div>
+        <div style="float: left; font-family: 'Open Sans', sans-serif; opacity: 0.5; font-size: 1.5em;" id="unity-build-title">Line Zen <span style="font-size: 11px;"> v0.5 (beta)&emsp;|&emsp;<a href="https://loam.net/">loam.net</a></span></div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/002.loader.js";
+      var loaderUrl = buildUrl + "/003.loader.js";
       var config = {
-        dataUrl: buildUrl + "/002.data",
-        frameworkUrl: buildUrl + "/002.framework.js",
-        codeUrl: buildUrl + "/002.wasm",
+        dataUrl: buildUrl + "/003.data",
+        frameworkUrl: buildUrl + "/003.framework.js",
+        codeUrl: buildUrl + "/003.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Loam",
         productName: "Line Zen",
-        productVersion: "0.3",
+        productVersion: "0.5",
       };
 
       var container = document.querySelector("#unity-container");
@@ -66,7 +66,7 @@
         canvas.style.width = "480px"; //3x4 res
         canvas.style.height = "640px";
       }
-      canvas.style.background = "url('" + buildUrl + "/002.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/003.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
